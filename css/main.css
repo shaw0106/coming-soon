@@ -29,9 +29,16 @@ body {
   overflow: hidden;
 }
 
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 70px;
+  width: 100%;
+}
+
 .title {
   position: absolute;
-  top: 160px;
+  top: 25%;
   left: 70px;
   width: 100%;
   color: #0a2739;
