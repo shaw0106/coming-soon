@@ -53,3 +53,77 @@ body {
   line-height: 1.5em;
   color: #0a2739;
 }
+
+.social-icons {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 100px;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+.circle {
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  background: #dd745a;
+  border-radius: 20px;
+  border: solid 1px;
+}
+
+.fa-behance {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-behance:hover {
+  background-color: #0a2739;
+}
+
+.fa-instagram {
+  color: hsl(195, 100%, 60%);
+  border-color: hsl(195, 100%, 60%);
+}
+
+.fa-instagram:hover {
+  background-color: hsl(195, 100%, 60%);
+}
+
+.fa-vimeo {
+  color: hsl(7, 71%, 55%);
+  border-color: hsl(7, 71%, 55%);
+}
+
+.fa-vimeo:hover {
+  background-color: hsl(7, 71%, 55%);
+}
+
+.fa-linkedin {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-linkedin:hover {
+  background-color: #0a2739;
+}
+
+.fa-desktop {
+  color: hsl(199, 85%, 36%);
+  border-color: hsl(199, 85%, 36%);
+}
+
+.fa-desktop:hover {
+  background-color: hsl(199, 85%, 36%);
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus:hover, .fa-linkedin:hover {
+  color: hsl(0, 0%, 100%);
+}
