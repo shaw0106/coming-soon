@@ -55,9 +55,8 @@ body {
 }
 
 .social-icons {
-  position: absolute;
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto 20px;
   padding: 0;
   width: 250px;
   height: 100px;
@@ -71,12 +70,12 @@ body {
 
 .circle {
   padding: 10px 10px;
-  width: 100%;
-  font-size: 20px;
+  width: 40px;
+  font-size: 40px;
   text-align: center;
   background: #dd745a;
-  border-radius: 20px;
-  border: solid 1px;
+  border-radius: 25px;
+  border: solid 2px;
 }
 
 .fa-behance {
@@ -89,21 +88,21 @@ body {
 }
 
 .fa-instagram {
-  color: hsl(195, 100%, 60%);
-  border-color: hsl(195, 100%, 60%);
+  color: #0a2739;
+  border-color: #0a2739;
 }
 
 .fa-instagram:hover {
-  background-color: hsl(195, 100%, 60%);
+  background-color: #0a2739;
 }
 
 .fa-vimeo {
-  color: hsl(7, 71%, 55%);
-  border-color: hsl(7, 71%, 55%);
+  color: #0a2739;
+  border-color: #0a2739;
 }
 
 .fa-vimeo:hover {
-  background-color: hsl(7, 71%, 55%);
+  background-color: #0a2739;
 }
 
 .fa-linkedin {
@@ -115,15 +114,18 @@ body {
   background-color: #0a2739;
 }
 
-.fa-desktop {
-  color: hsl(199, 85%, 36%);
-  border-color: hsl(199, 85%, 36%);
-}
-
-.fa-desktop:hover {
-  background-color: hsl(199, 85%, 36%);
-}
-
-.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus:hover, .fa-linkedin:hover {
+.fa-behance:hover, .fa-instagram:hover, .fa-vimeo:hover, .fa-linkedin:hover {
   color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+footer {
+  position: absolute;
+  top: 80%;
+  left: 70px;
 }
