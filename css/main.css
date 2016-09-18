@@ -31,14 +31,14 @@ body {
 
 .logo {
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 70px;
-  width: 100%;
+  width: 6%;
 }
 
 .title {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 70px;
   width: 100%;
   color: #0a2739;
@@ -47,7 +47,7 @@ body {
 
 .soon {
   position: absolute;
-  top: 300px;
+  top: 50%;
   left: 70px;
   width: 25%;
   line-height: 1.5em;
