@@ -41,7 +41,7 @@ body {
   position: absolute;
   top: 30%;
   left: 70px;
-  width: 25%;
+  width: 100%;
   color: #0a2739;
   font-size: 3em;
 }
@@ -145,13 +145,52 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 82%;
+  bottom: 5px;
   left: 70px;
 }
 
 /*---------------breakpoints---------*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1300px) {
+  .title {
+    top: 30%;
+    left: 70px;
+    width: 100%;
+    font-size: 2em;
+  }
 
+.bar {
+  width: 30px;
+  top: 43%;
+}
+
+  .soon {
+    top: 45%;
+    left: 70px;
+    width: 25%;
+    line-height: 2em;
+  }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .title {
+    top: 25%;
+    left: 70px;
+    width: 100%;
+    font-size: 1em;
+  }
+
+.bar {
+  width: 30px;
+  top: 43%;
+}
+
+  .soon {
+    top: 45%;
+    left: 70px;
+    width: 25%;
+    line-height: 2em;
+  }
     }
 }
