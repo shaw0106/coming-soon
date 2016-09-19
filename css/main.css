@@ -46,8 +46,15 @@ body {
   font-size: 3em;
 }
 
+.bar {
+  position: absolute;
+  width: 40px;
+  top: 47%;
+  left: 70px;
+}
+
 .soon {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   position: absolute;
   top: 50%;
   left: 70px;
@@ -129,6 +136,13 @@ body {
 
 footer {
   position: absolute;
-  top: 80%;
+  top: 82%;
   left: 70px;
+}
+
+/*---------------breakpoints---------*/
+
+@media only screen and (max-width: 500px) {
+
+    }
 }
