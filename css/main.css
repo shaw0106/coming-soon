@@ -60,8 +60,17 @@ body {
   left: 70px;
   width: 25%;
   line-height: 2em;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #0a2739;
+}
+
+a {
+  color: #0a2739;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .social-icons {
