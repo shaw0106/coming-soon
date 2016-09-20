@@ -27,13 +27,13 @@ body {
   display: inline-block;
   width: 40%;
   min-height: 750px;
-  min-width: 600px;
+  min-width: 500px;
   z-index: 2;
 }
 
 .background {
   width: 100%;
-  min-width: 1100px;
+  min-width: 1200px;
   }
 
 .logo {
@@ -196,6 +196,13 @@ footer {
 
 @media only screen and (max-width: 600px) {
 .title {
-  font-size: 5em;
+  font-size: 2em;
+}
+.soon {
+  width: 70%;
+}
+
+footer {
+  top: 77%;
 }
     }
