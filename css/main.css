@@ -162,6 +162,9 @@ footer {
   z-index: 3;
 }
 
+.bluefoot{
+display: none;
+}
 /*---------------breakpoints---------*/
 
 @media only screen and (max-width: 1000px) {
@@ -184,17 +187,21 @@ footer {
   .soon {
     top: 45%;
     left: 70px;
-    width: 35%;
+    width: 50%;
     line-height: 2em;
     font-size: .80em;
   }
 
   footer {
-    bottom: 70px;
+    top: 80%;
+  }
+
+  .bluefoot {
+    display: none;
   }
     }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 427px) {
 .title {
   font-size: 2em;
 }
@@ -204,5 +211,16 @@ footer {
 
 footer {
   top: 77%;
+}
+
+.bluefoot{
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+}
+
+footer {
+  top: 85%;
 }
     }
