@@ -26,12 +26,11 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 
 .logo {
   position: absolute;
-  top: 8%;
+  top: 70px;
   left: 70px;
   width: 6%;
 }
@@ -39,7 +38,7 @@ body {
 .title {
   font-family: 'Bitter', serif;
   position: absolute;
-  top: 35%;
+  top: 200px;
   left: 70px;
   width: 100%;
   color: #0a2739;
@@ -49,14 +48,14 @@ body {
 .bar {
   position: absolute;
   width: 40px;
-  top: 49%;
+  top: 300px;
   left: 70px;
 }
 
 .soon {
   font-family: 'Quicksand', sans-serif;
   position: absolute;
-  top: 50%;
+  top: 310px;
   left: 70px;
   width: 25%;
   line-height: 2em;
@@ -145,7 +144,7 @@ a:hover {
 
 footer {
   position: absolute;
-  bottom: 5px;
+  bottom: -60px;
   left: 70px;
 }
 
@@ -169,6 +168,11 @@ footer {
     left: 70px;
     width: 25%;
     line-height: 2em;
+    font-size: .75em;
+  }
+
+  footer {
+    bottom: 10px;
   }
     }
 }
@@ -192,5 +196,35 @@ footer {
     width: 25%;
     line-height: 2em;
   }
+    }
+}
+
+@media only screen and (max-width: 250px) {
+  .title {
+    top: 25%;
+    left: 70px;
+    width: 100%;
+    font-size: 1em;
+  }
+
+.bar {
+  width: 30px;
+  top: 43%;
+}
+
+  .soon {
+    top: 45%;
+    left: 70px;
+    width: 25%;
+    line-height: 2em;
+  }
+
+  .background {
+    display: inline-block;
+    height: 100%
+    padding: 0;
+    margin: 0;
+  }
+
     }
 }
