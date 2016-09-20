@@ -21,6 +21,15 @@ body {
   margin: 0;
 }
 
+
+.pinkbr {
+  float:left;
+  display: inline-block;
+  width: 40%;
+  min-height: 750px;
+  min-width: 630px;
+}
+
 .background {
   display: inline-block;
   width: 100%;
@@ -33,6 +42,7 @@ body {
   top: 70px;
   left: 70px;
   width: 6%;
+  min-width: 75px;
 }
 
 .title {
@@ -57,7 +67,7 @@ body {
   position: absolute;
   top: 310px;
   left: 70px;
-  width: 25%;
+  width: 27%;
   line-height: 2em;
   font-size: 1em;
   color: #0a2739;
@@ -144,18 +154,22 @@ a:hover {
 
 footer {
   position: absolute;
-  bottom: -60px;
+  top: 88%;
   left: 70px;
 }
 
 /*---------------breakpoints---------*/
 
-@media only screen and (max-width: 1300px) {
-  .title {
-    top: 30%;
-    left: 70px;
-    width: 100%;
-    font-size: 2em;
+@media only screen and (max-width: 1000px) {
+.logo {
+  width: 8%;
+}
+
+.title {
+  top: 30%;
+  left: 70px;
+  width: 100%;
+  font-size: 2em;
   }
 
 .bar {
@@ -166,65 +180,13 @@ footer {
   .soon {
     top: 45%;
     left: 70px;
-    width: 25%;
+    width: 50%;
     line-height: 2em;
-    font-size: .75em;
+    font-size: .80em;
   }
 
   footer {
-    bottom: 10px;
+    bottom: 70px;
   }
-    }
-}
-
-@media only screen and (max-width: 500px) {
-  .title {
-    top: 25%;
-    left: 70px;
-    width: 100%;
-    font-size: 1em;
-  }
-
-.bar {
-  width: 30px;
-  top: 43%;
-}
-
-  .soon {
-    top: 45%;
-    left: 70px;
-    width: 25%;
-    line-height: 2em;
-  }
-    }
-}
-
-@media only screen and (max-width: 250px) {
-  .title {
-    top: 25%;
-    left: 70px;
-    width: 100%;
-    font-size: 1em;
-  }
-
-.bar {
-  width: 30px;
-  top: 43%;
-}
-
-  .soon {
-    top: 45%;
-    left: 70px;
-    width: 25%;
-    line-height: 2em;
-  }
-
-  .background {
-    display: inline-block;
-    height: 100%
-    padding: 0;
-    margin: 0;
-  }
-
     }
 }
