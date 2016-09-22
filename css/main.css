@@ -157,13 +157,9 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 88%;
+  bottom: 5%;
   left: 70px;
   z-index: 3;
-}
-
-.bluefoot{
-display: none;
 }
 /*---------------breakpoints---------*/
 
@@ -195,10 +191,6 @@ display: none;
   footer {
     top: 80%;
   }
-
-  .bluefoot {
-    display: none;
-  }
     }
 
 @media only screen and (max-width: 427px) {
@@ -213,14 +205,7 @@ footer {
   top: 77%;
 }
 
-.bluefoot{
-  z-index: 5;
-  position: absolute;
-  width: 100%;
-  display: inline-block;
-}
-
 footer {
-  top: 85%;
+  top: 77%;
 }
     }
