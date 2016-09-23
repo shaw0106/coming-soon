@@ -189,7 +189,7 @@ footer {
   }
 
   footer {
-    top: 80%;
+    bottom: 1%;
   }
     }
 
@@ -197,31 +197,32 @@ footer {
 .title {
   font-size: 2em;
 }
+
 .soon {
   width: 70%;
 }
 
 footer {
-  top: 77%;
+  bottom: 1%;
 }
     }
 
-@media only screen and (max-width: 2000px) {
-  .title {
-  font-size: 3em;
-  top: 300px;
-}
+    @media only screen and (min-width: 1500px) and (max-width: 2000px) {
+      .title {
+      font-size: 3em;
+      top: 300px;
+    }
 
-.bar {
-  top: 410px;
-}
+    .bar {
+      top: 410px;
+    }
 
-  .soon {
-  width: 25%;
-  top: 425px;
-  }
+      .soon {
+      width: 25%;
+      top: 425px;
+      }
 
-  footer {
-  top: 70%;
-}
-  }
+      footer {
+      bottom: 1%;
+    }
+      }
