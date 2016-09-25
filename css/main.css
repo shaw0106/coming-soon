@@ -194,16 +194,26 @@ footer {
     }
 
 @media only screen and (max-width: 427px) {
+.logo {
+  top: 5%;
+}
+
 .title {
   font-size: 2em;
+  top: 27%;
+}
+
+.bar {
+  top: 40%;
 }
 
 .soon {
   width: 70%;
+  top: 42%;
 }
 
 footer {
-  bottom: 1%;
+  top: 80%;
 }
     }
 
