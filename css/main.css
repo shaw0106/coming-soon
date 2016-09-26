@@ -34,6 +34,7 @@ body {
 .background {
   width: 100%;
   min-width: 1200px;
+  display: block;
   }
 
 .logo {
@@ -188,6 +189,10 @@ footer {
     font-size: .80em;
   }
 
+.background {
+  display: block;
+}
+
   footer {
     bottom: 1%;
   }
@@ -212,6 +217,10 @@ footer {
   top: 42%;
 }
 
+.background {
+  display: none;
+}
+
 footer {
   top: 80%;
 }
@@ -231,6 +240,10 @@ footer {
       width: 25%;
       top: 425px;
       }
+
+.background {
+  display: block;
+}
 
       footer {
       bottom: 1%;
