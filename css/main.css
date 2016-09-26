@@ -201,51 +201,64 @@ footer {
 @media only screen and (max-width: 427px) {
 .logo {
   top: 5%;
+  left: 30px;
 }
 
 .title {
   font-size: 2em;
   top: 27%;
+  left: 30px;
 }
 
 .bar {
   top: 40%;
+  left: 30px;
 }
 
 .soon {
   width: 70%;
   top: 42%;
+  left: 30px;
 }
 
 .background {
   display: none;
 }
 
+.pinkbr {
+  display: none;
+}
+
+body {
+  background-color: #e2998d;
+}
+
 footer {
   top: 80%;
+  left: 30px;
 }
     }
 
-    @media only screen and (min-width: 1500px) and (max-width: 2000px) {
-      .title {
-      font-size: 3em;
-      top: 300px;
-    }
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+.title {
+font-size: 3em;
+top: 300px;
+}
 
-    .bar {
-      top: 410px;
-    }
+.bar {
+top: 410px;
+}
 
-      .soon {
-      width: 25%;
-      top: 425px;
-      }
+.soon {
+width: 25%;
+top: 425px;
+}
 
 .background {
   display: block;
 }
 
-      footer {
-      bottom: 1%;
-    }
+footer {
+  bottom: 1%;
+}
       }
